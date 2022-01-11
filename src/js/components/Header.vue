@@ -1,7 +1,17 @@
 <template>
   <div class="flex gap-3 justify-center">
-    <router-link to="/">Home</router-link>
-    <router-link to="/about">About</router-link>
+    <router-link
+      class="bg-gray-200 p-4 font-semibold"
+      exact-active-class="bg-gray-300"
+      to="/"
+      >Home</router-link
+    >
+    <router-link
+      class="bg-gray-200 p-4 font-semibold"
+      exact-active-class="bg-gray-300"
+      to="/about"
+      >About</router-link
+    >
   </div>
 </template>
 
